@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_room"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Add Room"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/add_renter"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Add Renter"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/room_list_Detail"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Room List"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

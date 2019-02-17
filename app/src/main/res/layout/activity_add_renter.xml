@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.addRenter.AddRenterActivity"
+    tools:showIn="@layout/activity_add_renter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/renter_photo_iv_add_renter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <EditText
+            android:id="@+id/renter_full_name_et_add_renter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginTop="16dp"
+            />
+
+        <EditText
+            android:id="@+id/renter_address_et_add_renter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:padding="10dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginTop="16dp"
+            />
+
+        <EditText
+            android:id="@+id/renter_adhar_et_add_renter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Aaddhar number"
+            android:inputType="number"
+            android:padding="10dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginTop="16dp"
+            />
+
+        <TextView
+            android:id="@+id/renter_joining_date_tv_add_renter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Joining Date"
+            android:padding="10dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginTop="16dp"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/renter_dob_tv_add_renter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of birth"
+            android:padding="10dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            />
+
+        <Spinner android:id="@+id/room_list_spinner_activity_add_renter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"/>
+
+
+        <Button
+            android:id="@+id/submit_btn_add_renter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/cancel_btn_add_renter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cancel" />
+
+
+    </LinearLayout>
+</ScrollView>

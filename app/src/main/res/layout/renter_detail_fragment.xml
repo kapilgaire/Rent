@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/renter_unique_id_txv_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Renter ID" />
+
+        <EditText
+            android:id="@+id/renter_unique_id_et_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/renter_name_txv_label_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Renter Name" />
+
+        <EditText
+            android:id="@+id/renter_name_et_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/renter_dob_txv_label_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth" />
+
+        <EditText
+            android:id="@+id/renter_dob_et_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/renter_address_txv_label_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Renter Address" />
+
+        <EditText
+            android:id="@+id/renter_address_et_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/adhar_no_txv_label_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="adhar number" />
+
+        <EditText
+            android:id="@+id/adhar_no_et_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/joining_date_txv_label_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Renter Joining Date" />
+
+        <EditText
+            android:id="@+id/joining_date_et_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/room_no_txv_content_renter_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room Number" />
+
+        <Button android:id="@+id/generate_bill_btn_content_renter_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Generate Bill" />
+    </LinearLayout>
+</ScrollView>
