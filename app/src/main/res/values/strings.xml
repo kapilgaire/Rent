@@ -2,7 +2,7 @@
     <string name="app_name">Rent</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_add_room">AddRoomActivity</string>
+    <string name="title_activity_add_room">Add Room Detail</string>
     <string name="title_activity_renter_detail">RenterDetailActivity</string>
     <string name="title_activity_room_list">RoomListActivity</string>
     <string name="title_activity_room_detail">RoomDetailActivity</string>

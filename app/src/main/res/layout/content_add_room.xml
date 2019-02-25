@@ -14,18 +14,22 @@
         style="?attr/textInputStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="5"
         app:helperText="*Required">
 
         <EditText
             android:id="@+id/room_no_et_content_add_room"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_room_black_24dp"
             android:ems="10"
+            android:singleLine="true"
+            android:maxLines="1"
             android:fontFamily="@string/font_family_medium"
             android:hint="Room number"
-
-            android:inputType="textPersonName"
-            android:singleLine="true" />
+            android:inputType="textCapCharacters"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -34,13 +38,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/room_no_til"
+        app:counterEnabled="true"
+        app:counterMaxLength="5"
         app:helperText="*Required">
 
         <EditText
             android:id="@+id/room_rent_et_content_add_room"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_indian_rupee_black_24dp"
             android:ems="10"
+            android:singleLine="true"
+            android:maxLines="1"
             android:fontFamily="@string/font_family_medium"
             android:hint="Room rent"
             android:inputType="numberDecimal" />
@@ -52,15 +61,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/room_rent_til"
-        app:helperText="*Required"
-
-        >
+        app:counterEnabled="true"
+        app:counterMaxLength="5"
+        app:helperText="*Required">
 
         <EditText
             android:id="@+id/electrcity_rate_et_content_add_room"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_indian_rupee_black_24dp"
             android:ems="10"
+            android:singleLine="true"
+            android:maxLines="1"
             android:fontFamily="@string/font_family_medium"
             android:hint="Electricity Rate Per unit"
             android:inputType="numberDecimal" />
